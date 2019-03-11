@@ -1,7 +1,7 @@
 ---
 layout: default
 sidebar: yes
-permalink: /docs/studio/Rules_&_Scripts/
+permalink: /docs/studio/Rules/
 ---
 
 Making OPI displays is flexible using the [Palette](/docs/studio/Palette/) and the [Properties](/docs/studio/Properties/), but the resulting displays are still fairly static. But what if we want to make the position of a widget dynamic based on a PV? Or if we want to dynamically change widget colors?
@@ -86,8 +86,3 @@ In addition, you can access the numeric alarm state of an input PV.
 #### Output Value
 The exact form that the **Output Value** column adopts depends on the type of the property. Some properties are colors, so you would see a color picker, other properties expect text, and the above example was a boolean yes/no, so we got a checkbox.
 
-
-### Scripts
-For more advanced dynamic runtime behaviour, we can write scripts (actually Rules are a thin layer on top of scripts). With scripts we can write arbitrary logic that can dynamically manipulate just about any combination of properties for a widget.
-
-Yamcs Studio supports two dynamic languages: JavaScript and Python. Both languages can be used to the same effect, and are available without any external dependencies. As of now, there is no advanced editor support bundled with Yamcs Studio though, so scripts are edited with a plain text editor.
