@@ -25,7 +25,8 @@ The list of available actions currently includes:
     </tr>
     <tr>
         <th>Execute Command</th>
-        <td>This executes a command on your operating system. It does not execute a telecommand (although we will probably add such a feature too)</td>
+        <td>This executes a command on your operating system. It does not execute a telecommand. To execute a telecommand, select "Execute JavaScript" or "Execute Python Script", an example is provided in the script section, as described in 
+        <a href="../Scripts/Example_Action_Telecommand/" title="Action Telecommand">this example</a></td>
     </tr>
     <tr>
         <th>Execute JavaScript</th>

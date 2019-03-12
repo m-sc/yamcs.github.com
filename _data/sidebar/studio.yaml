@@ -32,7 +32,12 @@
         - url: /docs/studio/Control_Widgets/
         - url: /docs/studio/Other_Widgets/
     - url: /docs/studio/Actions/
-    - url: /docs/studio/Rules_&_Scripts/
+    - url: /docs/studio/Rules/
+    - url: /docs/studio/Scripts/
+      items:
+        - url: /docs/studio/Scripts/Example_Action_Telecommand/
+        - url: /docs/studio/Scripts/Example_Update_Widget_Properties/
+        - url: /docs/studio/Scripts/Example_Java/        
     - url: /docs/studio/OPI_Schema/
 
 - url: /docs/studio/Views/
