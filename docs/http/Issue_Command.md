@@ -22,7 +22,7 @@ After validating the input parameters, the command will be added to the appropri
   <tr>
     <td class="code">origin</td>
     <td class="code">string</td>
-    <td>The origin of the command. Typically in "user@host" format.</td>
+    <td>The origin of the command. Typically a hostname.</td>
   </tr>
   <tr>
     <td class="code">sequenceNumber</td>
@@ -54,7 +54,7 @@ After validating the input parameters, the command will be added to the appropri
 ```json
 {
   "sequenceNumber" : 1,
-  "origin" : "user@my-machine",
+  "origin" : "my-machine",
   "assignment" : [ {
     "name": "voltage_num",
     "value": "3"
