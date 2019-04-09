@@ -54,7 +54,7 @@ Each queue has a name, a default state and a list of roles. The commands of a us
     </tr>
 </table>
 
-There is always a command-queue called 'default' whose state is enabled. If a command comes from a user without privilege for any of the defined queues, the command will be put in the default queue. The default queue can be redefined in [etc/command-queue.yaml](/docs/server/command-queue.yaml/) in order to have a different state.
+There is always a command-queue called 'default' whose state is enabled. If a command comes from a user without privilege for any of the defined queues, the command will be put in the default queue. The default queue can be redefined in order to have a different state.
 
 Control over the command queues, requires the <tt>ControlCommandQueue</tt> privilege.
 
