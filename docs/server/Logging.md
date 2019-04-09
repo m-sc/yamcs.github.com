@@ -23,7 +23,7 @@ Out files are rotated over a maximum of 5 files. There is no size restriction on
 
 ### Configuration
 
-The logging properties of Yamcs Server may be adjusted to your specific situation. This is done by modifying the file `/opt/yamcs/etc/logging.yamcs-server.properties`. The file structure is defined by the standard Java logging framework and requires a bit of background with Java development. There are two handlers. A FileHandler defines the properties used for logging to `/opt/yamcs/log/yamcs-server.log.x`. A ConsoleHandler can be used to tweak output for logging to `/opt/yamcs/log/yamcs-server.out.x`. The rotation of out files is not configured in this file, since this occurs at the level of the init system where the Yamcs process is managed.
+The logging properties of Yamcs Server may be adjusted to your specific situation. This is done by modifying the file `/opt/yamcs/etc/logging.properties`. The file structure is defined by the standard Java logging framework and requires a bit of background with Java development. There are two handlers. A FileHandler defines the properties used for logging to `/opt/yamcs/log/yamcs-server.log.x`. A ConsoleHandler can be used to tweak output for logging to `/opt/yamcs/log/yamcs-server.out.x`. The rotation of out files is not configured in this file, since this occurs at the level of the init system where the Yamcs process is managed.
 
 Yamcs comes with different log formatters that can be useful in different situations:
 
