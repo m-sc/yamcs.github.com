@@ -56,7 +56,7 @@ The <tt>password</tt> key may be omitted if the YAML AuthModule is not used for 
 
 If you do use YAML AuthModule for authentication, consider hashing the passwords for better security. Password hashes can be obtained via the command line:
 
-    yamcs password-hash
+    yamcsadmin password-hash
 
 This command prompts for the password and outputs a randomly salted PBKDF2 hash. This output can be assigned to the <tt>password</tt> key, replacing the clear password.
 
