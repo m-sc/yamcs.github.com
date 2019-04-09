@@ -14,8 +14,12 @@ A system privilege is the right to perform a particular action or to perform an 
 
 <table class="inline">
   <tr>
-  	<th class="code">ControlProcessor</th>
-  	<td>Allows to control any processor</td>
+    <th class="code">ControlProcessor</th>
+    <td>Allows to control any processor</td>
+  </tr>
+  <tr>
+    <th class="code">CreateInstances</th>
+    <td>Allows to create instances</td>
   </tr>
   <tr>
     <th class="code">ModifyCommandHistory</th>
@@ -34,6 +38,10 @@ A system privilege is the right to perform a particular action or to perform an 
     <td>Allows to read the entire MDB</td>
   </tr>
   <tr>
+    <th class="code">ChangeMissionDatabase</th>
+    <td>Allows online changes to the MDB</td>
+  </tr>
+  <tr>
     <th class="code">ControlArchiving</th>
     <td>Allows to manage archiving properties of Yamcs</td>
   </tr>
@@ -43,7 +51,7 @@ A system privilege is the right to perform a particular action or to perform an 
   </tr>
   <tr>
     <th class="code">ControlServices</th>
-    <td>Allows to manage the lifecycle of services</td>
+    <td>Allows to manage the lifecycle of services.</td>
   </tr>
   <tr>
     <th class="code">ManageAnyBucket</th>
@@ -77,35 +85,39 @@ An object privilege is the right to perform a particular action on an object. Th
 <table class="inline">
   <tr>
     <th class="code">Command</th>
-	<td>Allows to issue a particular command</td>
+    <td>Allows to issue a particular command</td>
   </tr>
   <tr>
     <th class="code">CommandHistory</th>
-	<td>Allows access to the command history of a particular command</td>
+    <td>Allows access to the command history of a particular command</td>
   </tr>
   <tr>
     <th class="code">InsertCommandQueue</th>
-	<td>Allows to insert commands to a particular queue</td>
+    <td>Allows to insert commands to a particular queue</td>
   </tr>
   <tr>
     <th class="code">ManageBucket</th>
-	<td>Allow control over a specific bucket</td>
+    <td>Allow control over a specific bucket</td>
+  </tr>
+  <tr>
+    <th class="code">ReadBucket</th>
+    <td>Allow readonly access to a specific bucket</td>
   </tr>
   <tr>
     <th class="code">ReadPacket</th>
-	<td>Allows to read a particular packet</td>
+    <td>Allows to read a particular packet</td>
   </tr>
   <tr>
     <th class="code">ReadParameter</th>
-	<td>Allows to read a particular parameter</td>
+    <td>Allows to read a particular parameter</td>
   </tr>
   <tr>
     <th class="code">Stream</th>
-	<td>Allow to read and emit to a specific stream</td>
+    <td>Allow to read and emit to a specific stream</td>
   </tr>
   <tr>
     <th class="code">WriteParameter</th>
-	<td>Allows to set the value of a particular parameter</td>
+    <td>Allows to set the value of a particular parameter</td>
   </tr>
 </table>
 
