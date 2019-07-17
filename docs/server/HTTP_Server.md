@@ -35,7 +35,7 @@ services:
         allowOrigin: "*"
         allowCredentials: false
       website:
-        displayScope: GLOBAL
+        tag: DEMO
 {% endyaml %}
 
 ### Configuration Options
@@ -138,8 +138,8 @@ Note that the embedded web interface of Yamcs does not need CORS enabled, becaus
     <th>Description</th>
   </tr>
   <tr>
-    <td class="code">displayScope</td>
+    <td class="code">tag</td>
     <td class="code">string</td>
-    <td>Where to locate displays and layouts. One of <tt>INSTANCE</tt> or <tt>GLOBAL</tt>. Setting this to <tt>GLOBAL</tt> means that displays are shared between all instances. Setting this to <tt>INSTANCE</tt>, means that each instance uses its own displays. Default: <tt>GLOBAL</tt></td>
+    <td>Tag to show in the top right of the application bar. This allows quickly identifying a particular deployment of Yamcs.</td>
   </tr>
 </table>
